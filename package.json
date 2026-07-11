@@ -1,0 +1,20 @@
+{
+  "name": "social-media-graph-api",
+  "version": "1.0.0",
+  "description": "REST API for social media graph relationships",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "jest --runInBand"
+  },
+  "author": "Backend Developer Intern (CITS3714)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
